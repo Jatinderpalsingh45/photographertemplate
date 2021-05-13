@@ -1,0 +1,328 @@
+
+/* mobile viewport */
+@media (max-width: 600px) { 
+    .bi{
+        margin-right: 12px;
+    }
+    body{
+        background-color: #F6EEE3 !important;
+    }
+    #nav{
+        background-color: #F6EEE3 !important;
+        height: 5.0rem !important;
+        position: fixed;
+        width: 100%;
+        padding: 20px;
+        animation: mymove 5s infinite ease-in-out;
+    }
+    #navbarScroll{
+        background-color: bisque;
+        padding: 12px;
+    }
+    .nav-link{
+        color: #B96D6F !important;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        margin-top: -7px;
+    }
+    .d-flex{
+        margin-top: -11px;
+    }
+    #title{
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px !important;
+        letter-spacing: .5px;
+        color: #B96D6F;
+        font-weight: 600;
+    }
+    
+    #screen1{
+        height: 100vh;
+        background-color: #F6EEE3;
+        padding-top: 5.0rem;
+        text-align: center;
+    }
+    
+    .image1{
+        width: 100%;
+        margin-left: 5.0rem;
+        margin-top: 3.0rem;
+    }
+    p{
+        text-align: left;
+        font-size: 13px;
+    }
+    #about{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        font-size: 22px;
+        text-align: left;
+        color: #B96D6F;
+    }
+    
+    #aboutme{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: .5rem;
+        font-weight: 300;
+        animation: botss-to-topss 4s ease-out;
+    }
+    
+    #footer{
+        width: 100%;
+        height: 2.0rem;
+        background-color: #F6EEE3;
+        color: #B96D6F;
+        padding: 4.0rem;
+        text-align: center;
+        margin-top: 1.4rem;
+    }
+    
+    #footer p{
+        text-align: center;
+    }
+}
+
+/* tablet viewport */
+@media (min-width: 768px) {
+    .bi{
+        margin-right: 12px;
+    }
+    body{
+        background-color: #F6EEE3 !important;
+    }
+    #nav{
+        background-color: #F6EEE3 !important;
+        height: 5.0rem !important;
+        position: fixed;
+        width: 100%;
+        padding: 20px;
+        animation: mymove 5s infinite ease-in-out;
+    }
+    #navbarScroll{
+        background-color: #F6EEE3;
+        padding: 12px;
+    }
+    #icons{
+        color: #B96D6F;
+    }
+    .nav-link{
+        color: #B96D6F !important;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        margin-top: -7px;
+    }
+    .d-flex{
+        margin-top: -11px;
+    }
+    #title{
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px !important;
+        letter-spacing: .5px;
+        color: #B96D6F;
+        font-weight: 600;
+    }
+    
+    #screen1{
+        height: 100vh;
+        background-color: #F6EEE3;
+        padding-top: 5.0rem;
+        text-align: center;
+    }
+    
+    .image1{
+        width: 100%;
+        margin-left: 1.0rem;
+        margin-top: 13.0rem;
+    }
+    p{
+        text-align: left;
+        font-size: 13px;
+    }
+    #about{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        font-size: 42px;
+        text-align: left;
+        color: #B96D6F;
+    }
+    
+    #aboutme{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: .5rem;
+        font-weight: 300;
+        animation: botss-to-topss 4s ease-out;
+        font-size: 20px;
+    }
+    
+    #footer{
+        width: 100%;
+        height: 2.0rem;
+        background-color: #F6EEE3;
+        color: #B96D6F;
+        padding: 4.0rem;
+        text-align: center;
+        margin-top: 1.4rem;
+    }
+    
+    #footer p{
+        text-align: center;
+    }
+}
+
+/* desktop viewport */
+@media (min-width: 1200px) { 
+    
+.bi{
+    margin-right: 12px;
+}
+body{
+    background-color: #F6EEE3 !important;
+}
+#nav{
+    background-color: #F6EEE3 !important;
+    height: 5.0rem !important;
+    /* position: fixed; */
+    padding: 50px;
+    width: 100vw;
+    z-index: 1;
+}
+
+.nav-link{
+    color: #B96D6F !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#icons{
+    color: #B96D6F;
+}
+#title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px !important;
+    letter-spacing: .5px;
+    color: #B96D6F;
+    font-weight: 600;
+}
+
+#screen1{
+    height: 100vh;
+    background-color: #F6EEE3;
+    padding-top: 8.0rem;
+    text-align: center;
+}
+
+.image1{
+    width: 50%;
+    margin-top: .8rem;
+}
+p{
+    text-align: left;
+    font-size: 18px;
+}
+#about{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 42px;
+    text-align: left;
+    color: #B96D6F;
+}
+
+#aboutme{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: .5rem;
+    font-weight: 300;
+    animation: botss-to-topss 4s ease-out;
+}
+
+#footer{
+    width: 100%;
+    height: 2.0rem;
+    background-color: #F6EEE3;
+    color: #B96D6F;
+    padding: 4.0rem;
+    text-align: center;
+    margin-top: 1.4rem;
+}
+
+#footer p{
+    text-align: center;
+}
+}
+
+/* large desktop viewport */
+@media (min-width: 1400px) {
+    
+.bi{
+    margin-right: 12px;
+}
+body{
+    background-color: #F6EEE3 !important;
+}
+#nav{
+    background-color: #F6EEE3 !important;
+    height: 5.0rem !important;
+    /* position: fixed; */
+    padding: 50px;
+    width: 100vw;
+    z-index: 1;
+}
+
+.nav-link{
+    color: #B96D6F !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    margin-top: .2rem;
+}
+#icons{
+    color: #B96D6F;
+}
+#title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px !important;
+    letter-spacing: .5px;
+    color: #B96D6F;
+    font-weight: 600;
+}
+
+#screen1{
+    height: 100vh;
+    background-color: #F6EEE3;
+    padding-top: 10.0rem;
+    text-align: center;
+}
+
+.image1{
+    width: 50%;
+    margin-top: 1.0rem;
+}
+p{
+    text-align: left;
+    font-size: 18px;
+}
+#about{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 42px;
+    text-align: left;
+    color: #B96D6F;
+}
+
+#aboutme{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: .5rem;
+    font-weight: 300;
+    animation: botss-to-topss 4s ease-out;
+}
+
+#footer{
+    width: 100%;
+    height: 2.0rem;
+    background-color: #F6EEE3;
+    color: #B96D6F;
+    padding: 4.0rem;
+    text-align: center;
+    margin-top: 1.4rem;
+}
+
+#footer p{
+    text-align: center;
+}
+}

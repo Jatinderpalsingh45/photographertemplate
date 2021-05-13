@@ -1,0 +1,397 @@
+
+/* mobile viewport */
+@media (max-width: 600px) { 
+    .bi{
+        margin-right: 12px;
+    }
+    
+    #nav{
+        background-color: #F6EEE3 !important;
+        height: 5.0rem !important;
+        width: 100%;
+        padding: 20px;
+        animation: mymove 5s infinite ease-in-out;
+    }
+    
+    .nav-link{
+        color: #B96D6F !important;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        margin-top: -12px;
+    }
+    #navbarScroll{
+        background-color: bisque;
+        padding: 12px;
+        z-index: 1;
+    }
+    .d-flex{
+        margin-top: -11px;
+    }
+    
+    #title{
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px !important;
+        letter-spacing: .5px;
+        color: #B96D6F;
+        font-weight: 600;
+    }
+    #icons{
+        color: #B96D6F;
+    }
+    #screen1{
+        height: 100vh;
+        background-color: #F6EEE3;
+        padding-top: 3.0rem;
+        text-align: center;
+    }
+    
+    .image1{
+        width: 45%;
+        margin-top: 1.0rem;
+        margin-left: -10.0rem;
+        display: none;
+    }
+    p{
+        text-align: left;
+        font-size: 18px;
+    }
+    #about{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        text-align: left;
+        color: #B96D6F;
+    }
+    
+    #email{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 1.5rem;
+        font-weight: 300;
+        animation: botss-to-topss 4s ease-out;
+        color: #B96D6F;
+    }
+    
+    #aboutme{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: .5rem;
+        font-weight: 300;
+        animation: botss-to-topss 4s ease-out;
+        font-size: 16px;
+    }
+    
+    #follow{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: .5rem;
+        font-weight: 300;
+        animation: botss-to-topss 4s ease-out;
+        color: #B96D6F;
+    }
+    
+    
+    #footer{
+        width: 100%;
+        height: 2.0rem;
+        background-color: #F6EEE3;
+        color: #B96D6F;
+        padding: 4.0rem;
+        text-align: center;
+        margin-top: 3.0rem;
+        font-size: 12px;
+    }
+    
+    #footer p{
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+/* tablet viewport */
+@media (min-width: 768px) {
+    .bi{
+        margin-right: 12px;
+    }
+    
+    #nav{
+        background-color: #F6EEE3 !important;
+        height: 5.0rem !important;
+        width: 100%;
+        padding: 20px;
+        animation: mymove 5s infinite ease-in-out;
+    }
+    #icons{
+        color: #B96D6F;
+    }
+    .nav-link{
+        color: #B96D6F !important;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        margin-top: -12px;
+    }
+    #navbarScroll{
+        background-color: #F6EEE3;
+        padding: 12px;
+        z-index: 1;
+    }
+    .d-flex{
+        margin-top: -11px;
+    }
+    
+    #title{
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px !important;
+        letter-spacing: .5px;
+        color: #B96D6F;
+        font-weight: 600;
+    }
+    
+    #screen1{
+        height: 100vh;
+        background-color: #F6EEE3;
+        padding-top: 4.0rem;
+        text-align: center;
+    }
+    
+    .image1{
+        width: 80%;
+        margin-top: 1.0rem;
+    }
+    p{
+        text-align: left;
+        font-size: 18px;
+    }
+    #about{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        text-align: left;
+        color: #B96D6F;
+    }
+    
+    #email{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 3.5rem;
+        font-size: 42px;
+        font-weight: 300;
+        animation: botss-to-topss 4s ease-out;
+        color: #B96D6F;
+    }
+    
+    #aboutme{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: .5rem;
+        font-size: 32px;
+        font-weight: 300;
+        animation: botss-to-topss 4s ease-out;
+    }
+    
+    #follow{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: .5rem;
+        font-weight: 300;
+        animation: botss-to-topss 4s ease-out;
+        color: #B96D6F;
+        font-size: 22px;
+    }
+    
+    
+    #footer{
+        width: 100%;
+        height: 2.0rem;
+        background-color: #F6EEE3;
+        color: #B96D6F;
+        padding: 4.0rem;
+        text-align: center;
+        margin-top: 4.0rem;
+    }
+    
+    #footer p{
+        text-align: center;
+    }
+}
+
+/* desktop viewport */
+@media (min-width: 1200px) {
+    .bi{
+        margin-right: 12px;
+    }
+    body{
+        background-color: #F6EEE3 !important;
+    }
+    #nav{
+        background-color: #F6EEE3 !important;
+        height: 5.0rem !important;
+        /* position: fixed; */
+        padding: 50px;
+        width: 100vw;
+        z-index: 1;
+    }
+    
+    .nav-link{
+        color: #B96D6F !important;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: .2rem;
+    }
+    
+    #title{
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px !important;
+        letter-spacing: .5px;
+        color: #B96D6F;
+        font-weight: 600;
+    }
+    
+    #screen1{
+        height: 100vh;
+        background-color: #F6EEE3;
+        padding-top: 4.0rem;
+        text-align: center;
+    }
+    
+    .image1{
+        width: 45%;
+        margin-top: -5.0rem;
+    }
+    p{
+        text-align: left;
+        font-size: 18px;
+    }
+    #about{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        text-align: left;
+        color: #B96D6F;
+    }
+    
+    #email{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 3.5rem;
+        font-weight: 300;
+        animation: botss-to-topss 4s ease-out;
+        color: #B96D6F;
+    }
+    
+    #aboutme{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: .5rem;
+        font-weight: 300;
+        animation: botss-to-topss 4s ease-out;
+    }
+    
+    #follow{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: .5rem;
+        font-weight: 300;
+        animation: botss-to-topss 4s ease-out;
+        color: #B96D6F;
+    }
+    
+    
+    #footer{
+        width: 100%;
+        height: 2.0rem;
+        background-color: #F6EEE3;
+        color: #B96D6F;
+        padding: 4.0rem;
+        text-align: center;
+        margin-top: 1.0rem;
+    }
+    
+    #footer p{
+        text-align: center;
+    }
+}
+
+/* large desktop viewport */
+@media (min-width: 1400px) {
+    .bi{
+        margin-right: 12px;
+    }
+    body{
+        background-color: #F6EEE3 !important;
+    }
+    #nav{
+        background-color: #F6EEE3 !important;
+        height: 5.0rem !important;
+        /* position: fixed; */
+        padding: 50px;
+        width: 100vw;
+        z-index: 1;
+    }
+    
+    .nav-link{
+        color: #B96D6F !important;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        margin-top: .2rem;
+    }
+    
+    #title{
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px !important;
+        letter-spacing: .5px;
+        color: #B96D6F;
+        font-weight: 600;
+    }
+    
+    #screen1{
+        height: 100vh;
+        background-color: #F6EEE3;
+        padding-top: 4.0rem;
+        text-align: center;
+    }
+    
+    .image1{
+        width: 45%;
+        margin-top: -5.0rem;
+    }
+    p{
+        text-align: left;
+        font-size: 18px;
+    }
+    #about{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 40px;
+        text-align: left;
+        color: #B96D6F;
+    }
+    
+    #email{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 3.5rem;
+        font-weight: 300;
+        animation: botss-to-topss 4s ease-out;
+        color: #B96D6F;
+    }
+    
+    #aboutme{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: .5rem;
+        font-weight: 300;
+        animation: botss-to-topss 4s ease-out;
+    }
+    
+    #follow{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: .5rem;
+        font-weight: 300;
+        animation: botss-to-topss 4s ease-out;
+        color: #B96D6F;
+    }
+    
+    
+    #footer{
+        width: 100%;
+        height: 2.0rem;
+        background-color: #F6EEE3;
+        color: #B96D6F;
+        padding: 4.0rem;
+        text-align: center;
+        margin-top: 1.0rem;
+    }
+    
+    #footer p{
+        text-align: center;
+    }
+}
