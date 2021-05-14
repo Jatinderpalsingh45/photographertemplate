@@ -208,7 +208,98 @@
         text-align: center;
     }
 }
-
+@media (min-width: 992px) {
+    .bi{
+        margin-right: 12px;
+    }
+    body{
+        background-color: #F6EEE3 !important;
+    }
+    #nav{
+        background-color: #F6EEE3 !important;
+        height: 5.0rem !important;
+        /* position: fixed; */
+        padding: 50px;
+        width: 100vw;
+        z-index: 1;
+    }
+    
+    .nav-link{
+        color: #B96D6F !important;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        margin-top: .2rem;
+    }
+    
+    #title{
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px !important;
+        letter-spacing: .5px;
+        color: #B96D6F;
+        font-weight: 600;
+    }
+    
+    #screen1{
+        height: 100vh;
+        background-color: #F6EEE3;
+        padding-top: 6.0rem;
+        text-align: center;
+    }
+    
+    .image1{
+        width: 75%;
+        margin-top: 3.0rem;
+    }
+    p{
+        text-align: left;
+        font-size: 28px;
+    }
+    #about{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 60px;
+        text-align: left;
+        color: #B96D6F;
+    }
+    
+    #email{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 3.5rem;
+        font-weight: 300;
+        animation: botss-to-topss 4s ease-out;
+        color: #B96D6F;
+    }
+    
+    #aboutme{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: .5rem;
+        font-weight: 300;
+        animation: botss-to-topss 4s ease-out;
+    }
+    
+    #follow{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: .5rem;
+        font-weight: 300;
+        animation: botss-to-topss 4s ease-out;
+        color: #B96D6F;
+    }
+    
+    
+    #footer{
+        width: 100%;
+        height: 2.0rem;
+        background-color: #F6EEE3;
+        color: #B96D6F;
+        padding: 4.0rem;
+        text-align: center;
+        margin-top: 6.0rem;
+    }
+    
+    #footer p{
+        text-align: center;
+    }
+}
 /* desktop viewport */
 @media (min-width: 1200px) {
     .bi{
